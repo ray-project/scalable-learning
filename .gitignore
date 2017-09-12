@@ -103,3 +103,7 @@ ENV/
 # Emacs backups
 *~
 flycheck_*.py
+
+# Ignore everything in data/, except data/
+data/*
+!data/.gitkeep
